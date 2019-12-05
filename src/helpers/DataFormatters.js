@@ -1,13 +1,18 @@
-export const wellDataFormatter = (pr2DataRaw) => {
-  const plateRowStartPoints = [ 33,43,53,63,73,83,93,103]
-  const plateDataArray = []
+export const plateDataFormatter = (pr2DataRaw) => {
   // Convert Raw text string to array of each line
-  const pr2Array = pr2DataRaw.toString().split('\n')
-  
-  for(let i = 0; i < plateRowStartPoints.length; i++) {
-    plateDataArray.push(rowformatter(plateRowStartPoints[i], pr2Array))
+  const pr2Array = pr2DataRaw.toString().split('\n');
+  const rowStartPoints = [33,43,53,63,73,83,93,103]
+  const wellDataArray = []
+  const plateData = {
+     fileName: pr2Array[1],
+     barcode1: pr2Array[5],
+     wellData: wellDataArray
   }
-  return plateDataArray
+  for(let i = 0; i < rowStartPoints.length; i++) {
+    wellDataArray.push(rowformatter(rowStartPoints[i], pr2Array))
+  }
+  
+  return plateData
 }
 
 
@@ -27,4 +32,5 @@ const rowformatter = (startIndex, arr) => {
   }
   return plateRow
 }
+
 

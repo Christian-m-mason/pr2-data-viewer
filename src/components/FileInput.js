@@ -1,5 +1,5 @@
 import React from 'react'
-import { wellDataFormatter } from '../helpers/DataFormatters'
+import { plateDataFormatter } from '../helpers/DataFormatters'
 let fileReader;
 
 class ImportFromFileBodyComponent extends React.Component  {
@@ -7,6 +7,8 @@ class ImportFromFileBodyComponent extends React.Component  {
     super(props)
 
     this.state = {
+      fileName: null,
+      barcode1: null,
       rowA: null,
       rowB: null,
       rowC: null,
@@ -22,18 +24,21 @@ class ImportFromFileBodyComponent extends React.Component  {
   
   handleFileRead (e) {
     const content = fileReader.result
-    const plateRowData = wellDataFormatter(content)
+    const plateData = plateDataFormatter(content)
     this.setState({
-      rowA: plateRowData[0],
-      rowB: plateRowData[1],
-      rowC: plateRowData[2],
-      rowD: plateRowData[3],
-      rowE: plateRowData[4],
-      rowF: plateRowData[5],
-      rowG: plateRowData[6],
-      rowH: plateRowData[7],
+      fileName: plateData.fileName,
+      barcode1: plateData.barcode1,
+      rowA: plateData.wellData[0],
+      rowB: plateData.wellData[1],
+      rowC: plateData.wellData[2],
+      rowD: plateData.wellData[3],
+      rowE: plateData.wellData[4],
+      rowF: plateData.wellData[5],
+      rowG: plateData.wellData[6],
+      rowH: plateData.wellData[7],
     })
-    console.log(this.state.rowD)
+
+    console.log(this.state)
   }
 
  handleFileChosen (file) {
