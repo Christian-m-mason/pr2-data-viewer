@@ -1,30 +1,43 @@
 import React from 'react'
+import { wellDataFormatter } from '../helpers/DataFormatters'
+let fileReader;
 
-const ImportFromFileBodyComponent = () => {
-  let fileReader;
+class ImportFromFileBodyComponent extends React.Component  {
+  constructor(props) {
+    super(props)
 
-  const handleFileRead = (e) => {
+    this.state = {
+      plateData: 'Hello',
+    }
+    this.handleFileChosen = this.handleFileChosen.bind(this)
+    this.handleFileRead = this.handleFileRead.bind(this)
+  }
+  
+  handleFileRead (e) {
     const content = fileReader.result
-    const pr2DataArray = content.toString().split('\n')
-    console.log(pr2DataArray[63])
+    this.setState({
+      plateData: wellDataFormatter(content)
+    })
   }
 
-  const handleFileChosen = (file) => {
+ handleFileChosen (file) {
     fileReader = new FileReader();
-    fileReader.onloadend = handleFileRead;
+    fileReader.onloadend = this.handleFileRead;
     fileReader.readAsText(file)
   }
 
-  return (
+  render () {
+    return(
     <div className="upload-datafile">
       <input type='file'
              id='file'
              className="input-file"
              accept='.txt'
-             onChange={e => handleFileChosen(e.target.files[0])}
+             onChange={e => this.handleFileChosen(e.target.files[0])}
           />
     </div>
   )
+  }
 }
 
 export default ImportFromFileBodyComponent
