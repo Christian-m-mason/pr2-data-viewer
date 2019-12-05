@@ -21,7 +21,7 @@ const rowformatter = (startIndex, arr) => {
   for( let k = 0; k < 9; k++) {
     let well = []
     for( let j = 0; j < linesArray.length; j++) {
-      well.push(parseInt(linesArray[j][k]))
+      well.push(linesArray[j][k])
     }
     plateRow.push(well)
   }

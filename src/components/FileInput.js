@@ -7,7 +7,14 @@ class ImportFromFileBodyComponent extends React.Component  {
     super(props)
 
     this.state = {
-      plateData: 'Hello',
+      rowA: null,
+      rowB: null,
+      rowC: null,
+      rowD: null,
+      rowE: null,
+      rowF: null,
+      rowG: null,
+      rowH: null,
     }
     this.handleFileChosen = this.handleFileChosen.bind(this)
     this.handleFileRead = this.handleFileRead.bind(this)
@@ -15,9 +22,18 @@ class ImportFromFileBodyComponent extends React.Component  {
   
   handleFileRead (e) {
     const content = fileReader.result
+    const plateRowData = wellDataFormatter(content)
     this.setState({
-      plateData: wellDataFormatter(content)
+      rowA: plateRowData[0],
+      rowB: plateRowData[1],
+      rowC: plateRowData[2],
+      rowD: plateRowData[3],
+      rowE: plateRowData[4],
+      rowF: plateRowData[5],
+      rowG: plateRowData[6],
+      rowH: plateRowData[7],
     })
+    console.log(this.state.rowD)
   }
 
  handleFileChosen (file) {
@@ -35,6 +51,7 @@ class ImportFromFileBodyComponent extends React.Component  {
              accept='.txt'
              onChange={e => this.handleFileChosen(e.target.files[0])}
           />
+
     </div>
   )
   }
