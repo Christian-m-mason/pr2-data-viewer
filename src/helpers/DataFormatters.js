@@ -44,9 +44,11 @@ export const plateDataFormatter = (pr2DataRaw) => {
 const rowformatter = (startIndex, arr) => {
   let linesArray = []
   let plateRow = []
+  // Break Line into array
   for (let i = startIndex; i < startIndex + 9; i++) {
     linesArray.push(arr[i].trim().split('\t'))
   }
+  //Merge Arrays in crazyness
   for( let k = 0; k < 9; k++) {
     let well = []
     for( let j = 0; j < linesArray.length; j++) {
