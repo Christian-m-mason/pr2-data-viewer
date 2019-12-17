@@ -14,8 +14,16 @@ These assays can detect the presence of target antigens by using Electrochemilum
 
 ### The operator conducts the sample prep and loads each of the wells with a specific dilution of the sample, and various controls.
 
+These wells can and usually include(All Run in Duplicate):
+
+- 1:1, 1:2, 1:10, 10:100, and 1:1000 dilutions
+- Matrix Controls (Tests if the sample matrix is inhibiting the results)
+- Inhibition Controls (Tests if the test results are being inhibited by the sample)
+- Positive Controls (Tests if the target spots return positive for target analyte )
+- Negative Controls (Ensures no false positives are present, also helps calculate threshold values for positive results)
+
 ### Current Goals
 
 1. Add Text file upload
 2. Parse text file into usable data
-3.
+3. Conduct Custom Analysis and use Custom non-standard plate layouts.
