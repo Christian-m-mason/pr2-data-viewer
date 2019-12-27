@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { plateDataFormatter } from "../helpers/DataFormatters";
+
+import { plateDataFormatter, getAllWellData } from "../helpers/DataFormatters";
 
 let fileReader;
 
@@ -16,10 +17,8 @@ export default class FileInput extends Component {
   handleFileRead(e) {
     const content = fileReader.result;
     const plateData = plateDataFormatter(content);
-    this.setState({
-      plateData: plateData
-    });
-    console.table(plateData)
+    const wells = getAllWellData(content);
+    this.props.handleFileUpload(plateData, wells);
   }
 
   handleFileChosen(file) {
@@ -38,7 +37,6 @@ export default class FileInput extends Component {
           accept=".txt"
           onChange={e => this.handleFileChosen(e.target.files[0])}
         />
-       
       </div>
     );
   }

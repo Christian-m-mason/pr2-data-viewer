@@ -1,14 +1,32 @@
-import React from "react";
-
+import React, { Component } from "react";
 import FileInput from "./components/FileInput";
 
+class App extends Component {
+  constructor(props) {
+    super(props);
 
-function App() {
-  return (
-    <div>
-      <FileInput />
-    </div>
-  )
+    this.state = {
+      plateDataObj: null,
+      wells: null
+    };
+  }
+
+  handleFileUpload = (plateData, wells) => {
+    this.setState({
+      plateDataObj: plateData,
+      wells: wells
+    });
+
+    console.log(this.state.wells);
+  };
+
+  render() {
+    return (
+      <div>
+        <FileInput handleFileUpload={this.handleFileUpload} />
+      </div>
+    );
+  }
 }
 
-export default App
+export default App;
