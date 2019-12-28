@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import FileInput from "./components/FileInput";
 
+import { Wells } from "./FormattedObject";
+
 class App extends Component {
   constructor(props) {
     super(props);

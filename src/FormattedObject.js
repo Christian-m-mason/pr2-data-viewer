@@ -1,6 +1,10 @@
-[
+export const Wells = [
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 1,
     botA: null,
     spotTwo: null,
@@ -13,7 +17,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 2,
     botA: null,
     spotTwo: null,
@@ -26,7 +34,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 3,
     botA: null,
     spotTwo: null,
@@ -39,7 +51,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 4,
     botA: null,
     spotTwo: null,
@@ -52,7 +68,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 5,
     botA: null,
     spotTwo: null,
@@ -65,7 +85,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 6,
     botA: null,
     spotTwo: null,
@@ -78,7 +102,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 7,
     botA: null,
     spotTwo: null,
@@ -91,7 +119,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 8,
     botA: null,
     spotTwo: null,
@@ -104,7 +136,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 9,
     botA: null,
     spotTwo: null,
@@ -117,7 +153,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 10,
     botA: null,
     spotTwo: null,
@@ -130,7 +170,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 11,
     botA: null,
     spotTwo: null,
@@ -143,7 +187,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "A",
+    label: "",
+    group: "",
+    include: true,
     col: 12,
     botA: null,
     spotTwo: null,
@@ -156,7 +204,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 1,
     botA: null,
     spotTwo: null,
@@ -169,7 +221,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 2,
     botA: null,
     spotTwo: null,
@@ -182,7 +238,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 3,
     botA: null,
     spotTwo: null,
@@ -195,7 +255,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 4,
     botA: null,
     spotTwo: null,
@@ -208,7 +272,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 5,
     botA: null,
     spotTwo: null,
@@ -221,7 +289,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 6,
     botA: null,
     spotTwo: null,
@@ -234,7 +306,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 7,
     botA: null,
     spotTwo: null,
@@ -247,7 +323,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 8,
     botA: null,
     spotTwo: null,
@@ -260,7 +340,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 9,
     botA: null,
     spotTwo: null,
@@ -273,7 +357,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 10,
     botA: null,
     spotTwo: null,
@@ -286,7 +374,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 11,
     botA: null,
     spotTwo: null,
@@ -299,7 +391,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "B",
+    label: "",
+    group: "",
+    include: true,
     col: 12,
     botA: null,
     spotTwo: null,
@@ -312,7 +408,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 1,
     botA: null,
     spotTwo: null,
@@ -325,7 +425,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 2,
     botA: null,
     spotTwo: null,
@@ -338,7 +442,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 3,
     botA: null,
     spotTwo: null,
@@ -351,7 +459,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 4,
     botA: null,
     spotTwo: null,
@@ -364,7 +476,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 5,
     botA: null,
     spotTwo: null,
@@ -377,7 +493,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 6,
     botA: null,
     spotTwo: null,
@@ -390,7 +510,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 7,
     botA: null,
     spotTwo: null,
@@ -403,7 +527,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 8,
     botA: null,
     spotTwo: null,
@@ -416,7 +544,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 9,
     botA: null,
     spotTwo: null,
@@ -429,7 +561,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 10,
     botA: null,
     spotTwo: null,
@@ -442,7 +578,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 11,
     botA: null,
     spotTwo: null,
@@ -455,7 +595,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "C",
+    label: "",
+    group: "",
+    include: true,
     col: 12,
     botA: null,
     spotTwo: null,
@@ -468,7 +612,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 1,
     botA: 1745,
     spotTwo: 44,
@@ -481,7 +629,11 @@
     pcL: 137
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 2,
     botA: 1795,
     spotTwo: 31,
@@ -494,7 +646,11 @@
     pcL: 48
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 3,
     botA: 348,
     spotTwo: 35,
@@ -507,7 +663,11 @@
     pcL: 421
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 4,
     botA: 282,
     spotTwo: 25,
@@ -520,7 +680,11 @@
     pcL: 35
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 5,
     botA: 16475,
     spotTwo: 34,
@@ -533,7 +697,11 @@
     pcL: 124
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 6,
     botA: 2041,
     spotTwo: 29,
@@ -546,7 +714,11 @@
     pcL: 258
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 7,
     botA: 2005,
     spotTwo: 28,
@@ -559,7 +731,11 @@
     pcL: 47
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 8,
     botA: 5,
     spotTwo: -1,
@@ -572,7 +748,11 @@
     pcL: 2
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 9,
     botA: -2,
     spotTwo: -7,
@@ -585,7 +765,11 @@
     pcL: 14
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 10,
     botA: -3,
     spotTwo: -6,
@@ -598,7 +782,11 @@
     pcL: -1
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 11,
     botA: 1,
     spotTwo: 0,
@@ -611,7 +799,11 @@
     pcL: 3
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "D",
+    label: "",
+    group: "",
+    include: true,
     col: 12,
     botA: 1,
     spotTwo: -1,
@@ -624,7 +816,11 @@
     pcL: 0
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 1,
     botA: 60,
     spotTwo: 34,
@@ -637,7 +833,11 @@
     pcL: 48
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 2,
     botA: 75,
     spotTwo: 34,
@@ -650,7 +850,11 @@
     pcL: 52
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 3,
     botA: 48,
     spotTwo: 33,
@@ -663,7 +867,11 @@
     pcL: 49
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 4,
     botA: 51,
     spotTwo: 27,
@@ -676,7 +884,11 @@
     pcL: 53
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 5,
     botA: 1,
     spotTwo: -2,
@@ -689,7 +901,11 @@
     pcL: 13
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 6,
     botA: 0,
     spotTwo: -2,
@@ -702,7 +918,11 @@
     pcL: 4
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 7,
     botA: 2,
     spotTwo: -2,
@@ -715,7 +935,11 @@
     pcL: 5
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 8,
     botA: 3,
     spotTwo: -1,
@@ -728,7 +952,11 @@
     pcL: 12
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 9,
     botA: 3,
     spotTwo: -5,
@@ -741,7 +969,11 @@
     pcL: 0
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 10,
     botA: 2,
     spotTwo: -6,
@@ -754,7 +986,11 @@
     pcL: 0
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 11,
     botA: 40,
     spotTwo: 27,
@@ -767,7 +1003,11 @@
     pcL: 47
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "E",
+    label: "",
+    group: "",
+    include: true,
     col: 12,
     botA: 42,
     spotTwo: 37,
@@ -780,7 +1020,11 @@
     pcL: 42
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 1,
     botA: 18993,
     spotTwo: 62,
@@ -793,7 +1037,11 @@
     pcL: 59
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 2,
     botA: 53,
     spotTwo: 37,
@@ -806,7 +1054,11 @@
     pcL: 51
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 3,
     botA: 53,
     spotTwo: 40,
@@ -819,7 +1071,11 @@
     pcL: 55
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 4,
     botA: 14424,
     spotTwo: 30,
@@ -832,7 +1088,11 @@
     pcL: 63
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 5,
     botA: 46,
     spotTwo: 32,
@@ -845,7 +1105,11 @@
     pcL: 56
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 6,
     botA: 50,
     spotTwo: 40,
@@ -858,7 +1122,11 @@
     pcL: 48
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 7,
     botA: 44,
     spotTwo: 28,
@@ -871,7 +1139,11 @@
     pcL: 50
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 8,
     botA: 42,
     spotTwo: 34,
@@ -884,7 +1156,11 @@
     pcL: 50
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 9,
     botA: 49,
     spotTwo: 28,
@@ -897,7 +1173,11 @@
     pcL: 48
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 10,
     botA: 35,
     spotTwo: 23,
@@ -910,7 +1190,11 @@
     pcL: 46
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 11,
     botA: 57,
     spotTwo: 39,
@@ -923,7 +1207,11 @@
     pcL: 49
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "F",
+    label: "",
+    group: "",
+    include: true,
     col: 12,
     botA: 4,
     spotTwo: -2,
@@ -936,7 +1224,11 @@
     pcL: 15
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 1,
     botA: null,
     spotTwo: null,
@@ -949,7 +1241,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 2,
     botA: null,
     spotTwo: null,
@@ -962,7 +1258,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 3,
     botA: null,
     spotTwo: null,
@@ -975,7 +1275,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 4,
     botA: null,
     spotTwo: null,
@@ -988,7 +1292,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 5,
     botA: null,
     spotTwo: null,
@@ -1001,7 +1309,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 6,
     botA: null,
     spotTwo: null,
@@ -1014,7 +1326,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 7,
     botA: null,
     spotTwo: null,
@@ -1027,7 +1343,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 8,
     botA: null,
     spotTwo: null,
@@ -1040,7 +1360,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 9,
     botA: null,
     spotTwo: null,
@@ -1053,7 +1377,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 10,
     botA: null,
     spotTwo: null,
@@ -1066,7 +1394,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 11,
     botA: null,
     spotTwo: null,
@@ -1079,7 +1411,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "G",
+    label: "",
+    group: "",
+    include: true,
     col: 12,
     botA: null,
     spotTwo: null,
@@ -1092,7 +1428,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 1,
     botA: null,
     spotTwo: null,
@@ -1105,7 +1445,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 2,
     botA: null,
     spotTwo: null,
@@ -1118,7 +1462,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 3,
     botA: null,
     spotTwo: null,
@@ -1131,7 +1479,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 4,
     botA: null,
     spotTwo: null,
@@ -1144,7 +1496,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 5,
     botA: null,
     spotTwo: null,
@@ -1157,7 +1513,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 6,
     botA: null,
     spotTwo: null,
@@ -1170,7 +1530,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 7,
     botA: null,
     spotTwo: null,
@@ -1183,7 +1547,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 8,
     botA: null,
     spotTwo: null,
@@ -1196,7 +1564,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 9,
     botA: null,
     spotTwo: null,
@@ -1209,7 +1581,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 10,
     botA: null,
     spotTwo: null,
@@ -1222,7 +1598,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 11,
     botA: null,
     spotTwo: null,
@@ -1235,7 +1615,11 @@
     pcL: null
   },
   {
+    plateId: "<\"'F8PBD!$%9>",
     row: "H",
+    label: "",
+    group: "",
+    include: true,
     col: 12,
     botA: null,
     spotTwo: null,

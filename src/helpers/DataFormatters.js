@@ -41,6 +41,9 @@ export const wellDataPuller = (pr2DataRaw, row) => {
     }
     well.plateId = barcode1;
     well.row = rowLabel;
+    well.label = "";
+    well.group = "";
+    well.include = true;
     well.col = j + 1;
     well.botA = tmp[0];
     well.spotTwo = tmp[1];

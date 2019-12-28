@@ -5,27 +5,18 @@ import { plateDataFormatter, getAllWellData } from "../helpers/DataFormatters";
 let fileReader;
 
 export default class FileInput extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      plateData: null
-    };
-    this.handleFileChosen = this.handleFileChosen.bind(this);
-    this.handleFileRead = this.handleFileRead.bind(this);
-  }
-
-  handleFileRead(e) {
+  handleFileRead = e => {
     const content = fileReader.result;
     const plateData = plateDataFormatter(content);
     const wells = getAllWellData(content);
     this.props.handleFileUpload(plateData, wells);
-  }
+  };
 
-  handleFileChosen(file) {
+  handleFileChosen = file => {
     fileReader = new FileReader();
     fileReader.onloadend = this.handleFileRead;
     fileReader.readAsText(file);
-  }
+  };
 
   render() {
     return (
