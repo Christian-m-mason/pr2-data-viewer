@@ -23,7 +23,8 @@ export const plateDataFormatter = pr2DataRaw => {
     model: pr2Array[21].split("\t")[1].trim(),
     orientation: pr2Array[23].split("\t")[1].trim(),
     assays: pr2Array[24].split("\t")[1],
-    visibleSpots: pr2Array[25].split("\t")[1]
+    visibleSpots: pr2Array[25].split("\t")[1],
+    wells: getAllWellData(pr2DataRaw)
   };
 };
 
@@ -36,15 +37,14 @@ export const wellDataPuller = (pr2DataRaw, row) => {
     let tmp = [];
     let well = {};
     for (let i = 0; i < 9; i++) {
-      let val = parseInt(rawRows[i][j]);
+      let val = rawRows[i][j];
       tmp.push(val);
     }
     well.plateId = barcode1;
-    well.row = rowLabel;
+    well.location = rowLabel + (j + 1).toString();
     well.label = "";
     well.group = "";
     well.include = true;
-    well.col = j + 1;
     well.botA = tmp[0];
     well.spotTwo = tmp[1];
     well.ricin = tmp[2];
@@ -77,5 +77,10 @@ export const getAllWellData = arr => {
     allWells.push(wellDataPuller(arr, rowStart));
     rowStart += 10;
   }
-  return allWells.flat();
+  allWells = allWells.flat();
+  allWells = allWells.filter(well => {
+    return well.botA;
+  });
+
+  return allWells;
 };
