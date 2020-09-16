@@ -1,32 +1,14 @@
 import React, { Component } from "react";
-import FileInput from "./components/FileInput";
+import { Provider } from "react-redux";
+import store from "./store";
+import Home from "./components/Home";
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      plateDataObj: null,
-      wells: null
-    };
-  }
-
-  handleFileUpload = (plateData, wells) => {
-    this.setState({
-      plateDataObj: plateData,
-      wells: wells
-    });
-
-    console.log(this.state.wells);
-  };
-
-  render() {
-    return (
-      <div>
-        <FileInput handleFileUpload={this.handleFileUpload} />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <Provider store={store}>
+      <Home />
+    </Provider>
+  );
 }
 
 export default App;
